@@ -20,7 +20,6 @@ setTimeout(() => {
     canvas.style.top = '0';
     canvas.style.left = '0';
     canvas.style.zIndex = '999999';
-    canvas.style.pointerEvents = 'none';
     document.body.appendChild(canvas);
 
     const ctx = canvas.getContext('2d');
